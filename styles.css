@@ -2,11 +2,15 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100;
+  height: 100%;
   margin: 0px;
   padding: 0px;
 
   font-family: 'Rubik', sans-serif;
+}
+
+.body {
+  background: linear-gradient(to bottom, rgba(247, 230, 222, 0.5) 0%, rgba(252, 162, 126, 0.5) 100%);
 }
 
 .name {
