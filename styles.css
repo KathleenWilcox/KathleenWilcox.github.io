@@ -1,6 +1,5 @@
 html, body {
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 100%;
   margin: 0px;
@@ -8,37 +7,74 @@ html, body {
 
   font-family: 'Rubik', sans-serif;
 }
-
-.body {
-  background: linear-gradient(to bottom, rgba(247, 230, 222, 0.5) 0%, rgba(252, 162, 126, 0.5) 100%);
+nav{
+  width: 100vw;
+  background-color: white;
+  text-align: center;
 }
-
-.name {
-  font-family: 'Rubik', sans-serif;
-  margin-bottom: 2px;
+li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 2vw;
+  font-size: 2vh;
+  padding: 1vw;
+  margin-left: 0;
+  margin-right: 0;
 }
-
-.wrapper {
-  max-width: 50%;
-  display: flex;
-  flex-direction: row;
-  height: 80%;
-}
-
-.left, .right {
-  margin: 5px;
-  max-width: 50%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.left {
+a.navlink{
+  text-decoration: none;
+  color: #999999;
   align-items: center;
-  justify-content: center;
 }
+a.navlink:hover{
+  color: #fbc99d;
+}
+a.headerlink{
+  text-decoration: none;
+  color: #fbc99d;
+}
+a.headerlink:hover{
+  color: #999999;
+}
+ul {
+  padding: 0;
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+.navbar{
+  position: fixed;
+  padding-top: 0px;
+}
+.name {
+  font-family: 'Indie Flower', cursive;
+  color: #fbc99d;
+  font-size: 112px;
+  padding-top: 0;
+}
+.subname {
+  font-family: 'Rubik', sans-serif;
+  color: #C0C0C0;
+  font-size: 30px;
+  padding-top: 0;
+  float: left;
+  margin-left: 20vw;
+}
+.vl {
+  display: inline-block;
+  border-left: 1px solid #fbc99d;
+  height: 20px;
+  vertical-align: middle;
+}
+.boxed {
+  opacity: 0.2;
+  border: 1.7px solid #C0C0C0;
+  border-radius: 25px;
+  height: 25vw;
+  width: 25vw;
+  margin-left: 10vw;
 
-.profile-picture {
-  border-radius: 50%;
 }
