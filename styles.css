@@ -149,6 +149,7 @@ h1 {
 #page td {
    padding:0; margin:0;
 }
+<<<<<<< HEAD
 .funfacts-header{
   font-family: 'Quicksand', sans-serif;
   color: #7E7E7D;
@@ -157,6 +158,9 @@ h1 {
 #page td {
    padding:0; margin:0;
 }
+=======
+
+>>>>>>> bff1805... added content to about me page
 .fact {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
