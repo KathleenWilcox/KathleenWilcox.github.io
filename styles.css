@@ -97,6 +97,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 .column {
   float: left;
   width: 50%;
@@ -111,6 +112,8 @@ h1 {
   font-weight:600;
   line-height: 25px;
 }
+=======
+>>>>>>> ac77b33efd7e1b9724540d32e952e1cc001b2df1
 .column-two{
   text-align: justify;
   padding-right: 25vw;
@@ -140,6 +143,7 @@ h1 {
   table-layout: fixed;
   width: 50vw;
 }
+<<<<<<< HEAD
 
 .funfacts-header{
   font-family: 'Quicksand', sans-serif;
@@ -150,6 +154,18 @@ h1 {
    padding:0; margin:0;
 }
 
+=======
+
+.funfacts-header{
+  font-family: 'Quicksand', sans-serif;
+  color: #7E7E7D;
+}
+
+#page td {
+   padding:0; margin:0;
+}
+
+>>>>>>> ac77b33efd7e1b9724540d32e952e1cc001b2df1
 .fact {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
@@ -157,6 +173,7 @@ h1 {
   color: #7E7E7D;
   border-top: 1px solid #CBCBCB;
   width: 46%;
+<<<<<<< HEAD
 }
 
 li.dropdown {
@@ -209,4 +226,6 @@ li.dropdown {
 #leadership {
   height: 50%;
   overflow: auto;
+=======
+>>>>>>> ac77b33efd7e1b9724540d32e952e1cc001b2df1
 }
