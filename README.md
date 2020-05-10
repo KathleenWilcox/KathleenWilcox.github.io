@@ -1,1 +1,1 @@
-This is going to be my website
+Wanted to learn some HTML/CSS so I decided to build a portfolio website.
